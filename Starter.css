@@ -1,0 +1,216 @@
+/* Body styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+    height: 100%;
+    scroll-behavior: inherit;
+    position: sticky;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation menu styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Movies section styles */
+  #Movies {
+    background-color: #f2f2f2;
+    height:100%;
+    width:100%;
+    display:none;
+  }
+  
+  #Movies-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #Movies-container p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 30px;
+  }
+  
+  .OnStarter {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+  }
+  
+  .Container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .Container p {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .Container img {
+    max-width: 200px;
+    margin-left: 20px;
+  }
+  
+  /* Favorite movies section styles */
+  #My-Favorite-Movies {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    display:none
+  }
+  
+  #My-Favorite-Movies p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+  }
+  
+  .List {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .List li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Home section styles */
+  #Home {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  #Home-Container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #Home-Container p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+  }
+  
+  #Home-Container button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #Home-Container button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Submit your movies section styles */
+#Submit-Your-Movies{
+    display: none;
+}
+#Self-Submit {
+    margin: 50px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #Self-Submit input {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #Self-Submit button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #Self-Submit button:hover {
+    background-color: #0069d9;
+  }
+  
+  #Self-Submit button:active {
+    background-color: #005cbf;
+  }
+  
+  #Self-Submit button:focus {
+    outline: none;
+  }
+  
+  #Self-Submit button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
